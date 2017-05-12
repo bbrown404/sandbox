@@ -27,7 +27,7 @@ namespace CardShuffleRunner
             PrintDeck(deck);
             PressAny();
 
-            Console.WriteLine("Now to compare ordring in place vs creating a new deck to order the cards.");
+            Console.WriteLine("Now to compare ordering in place vs creating a new deck to order the cards.");
             PressAny();
             ComparisonTest();
 

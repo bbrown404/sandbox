@@ -63,6 +63,9 @@ namespace CardShuffler
         /// <summary>
         /// Orders the deck by having a new one made.
         /// </summary>
+        /// <remarks>
+        /// This performs slower than ordering in place and is depreciated.
+        /// </remarks>
         public void NativeOrderDeck()
         {
             NewDeck();
